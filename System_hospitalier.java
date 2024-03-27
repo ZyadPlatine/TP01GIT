@@ -32,12 +32,14 @@ public class System_hospitalier {
         System.out.println(analyse);
         System.out.println(comparaisonDonnees);
     }
-
+     
+    // Analyse une requete entrer en parametre et renvoie "requête analysée".
     private String analyserRequete(Requête requête) {
         
         return "requête analysée";
     }
-
+    
+    // Compare des données entre elles et renvoie "Cluster trouvé" si la fonction en a trouver un.
     private String comparerDonnes() {
         
         return "Cluster trouvé";
